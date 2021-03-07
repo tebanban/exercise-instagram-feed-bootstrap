@@ -1,0 +1,117 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Instagram post</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+     rel="stylesheet" 
+     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+     crossorigin="anonymous">
+</head>
+
+<body>
+   
+    <!--  Nav bar ---->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="#"><img src="https://assets.website-files.com/5c75b94c8dd1ae50d3b9294b/5d48831280adb734a5db5620_hukglfkfklk%3B.png" alt="" height="35" ></a>
+                   
+            <button class="btn btn-outline-success" type="submit">Create new post</button>
+            <div class="btn-group">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Small button 
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>           
+            </div>
+        </div>
+    </nav>
+    <!--Nav bar-->
+
+     
+    <!--Btn group -->
+                      
+            <div class="panel text-center" id="togglePanel">
+                
+                <div class="btn-group btn-group-lg btn-toggle">
+                    <button class="btn  active btn-info" data-toggle="tab" data-target="#gallery-scroll"><img src="https://cdn.iconscout.com/icon/free/png-256/rounded-square-459344.png" alt="" height="15" ></button>
+                    <button class="btn btn-default" data-toggle="tab" data-target="#gallery-thumbs"><img src=" http://cdn.onlinewebfonts.com/svg/img_510455.png" alt="" height="15" ></button>
+                </div>
+            </div>
+<!-- Btn group -->
+<!-- Contenido -->
+     
+     <div class="panel-body tab-content text-center">
+
+
+    <!-- Section Scroll -->   
+        <div class="tab-pane " id="gallery-scroll" >
+          <h1>Scroll_down Section...</h1>
+          
+            <div class="card" style="width: 22rem; align-items: center;">
+                 <h5 class="card-title">Mi mascota</h5>
+                <div class="card-body">
+                    <img src="https://picsum.photos/id/237/300" class="card-img-top" alt="...">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>                  
+            </div>
+            
+            <div class="card" style="width: 22rem; align-items: center;">
+                 <h5 class="card-title">Viaje a NY City</h5>
+                <div class="card-body">
+                    <img src="https://picsum.photos/id/238/300" class="card-img-top" alt="...">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>                  
+            </div>
+
+            <div class="card" style="width: 22rem; align-items: center;">
+                 <h5 class="card-title">Fotografía macro</h5>
+                <div class="card-body">
+                    <img src="https://picsum.photos/id/239/300" class="card-img-top" alt="...">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>                  
+            </div>
+           
+        </div>
+        <!-- Section Scroll -->
+
+        <!-- Section gallery  -->
+        <div class="tab-pane active text-center" id="gallery-thumbs">
+            <h1>Gallery Section...</h1>
+             <div class="container-fluid" m-3 id="gallery">
+                <div class="row" style="margin-top: 10px;">
+                    <div class="col-4" ><img src="https://picsum.photos/id/237/300" alt=""  width="100%"></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/238/300" alt=""  width="100%"></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/239/300" alt=""  width="100%"></div>
+                </div>
+                <div class="row" style="margin-top: 10px;">
+                    <div class="col-4" ><img src="https://picsum.photos/id/240/300" alt=""  width="100%"></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/241/300" alt=""  width="100%"></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/242/300" alt=""  width="100%"></div>
+                </div>
+                <div class="row" style="margin-top: 10px;">
+                    <div class="col-4" ><img src="https://picsum.photos/id/243/300" alt=""  width="100%"></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/244/300" alt=""  width="100%"></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/230/300" alt=""  width="100%"></div>
+                </div>
+            </div>
+        </div>
+     <!-- Section gallery end -->
+
+      </div>
+<!-- Contenido -->
+      
+
+        <!-- Scripts starts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
