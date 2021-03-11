@@ -39,7 +39,7 @@
             <div class="panel text-center" id="togglePanel">
                 
                 <div class="btn-group btn-group-lg btn-toggle">
-                    <button class="btn  active btn-info" data-toggle="tab" data-target="#gallery-scroll"><img src="https://cdn.iconscout.com/icon/free/png-256/rounded-square-459344.png" alt="" height="15" ></button>
+                    <button class="btn btn-info" data-toggle="tab" data-target="#gallery-scroll"><img src="https://cdn.iconscout.com/icon/free/png-256/rounded-square-459344.png" alt="" height="15" ></button>
                     <button class="btn btn-default" data-toggle="tab" data-target="#gallery-thumbs"><img src=" http://cdn.onlinewebfonts.com/svg/img_510455.png" alt="" height="15" ></button>
                 </div>
             </div>
@@ -48,12 +48,12 @@
      
      <div class="panel-body tab-content text-center">
 
-
-    <!-- Section Scroll -->   
-        <div class="tab-pane " id="gallery-scroll" >
+        
+        <div class="tab-pane " id="gallery-scroll" > <!-- scroll section-->
           <h1>Scroll_down Section...</h1>
-          
-            <div class="card" style="width: 22rem; align-items: center;">
+          <div class="row justify-content-center" >
+            <div class="col-6">
+            <div class="card" style="width: 100%" >
                  <h5 class="card-title">Mi mascota</h5>
                 <div class="card-body">
                     <img src="https://picsum.photos/id/237/300" class="card-img-top" alt="...">
@@ -76,11 +76,12 @@
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>                  
             </div>
-           
-        </div>
-        <!-- Section Scroll -->
+            </div>
+           </div>
+        </div> <!-- scroll section-->
+        
 
-        <!-- Section gallery  -->
+        <!-- gallery  section-->
         <div class="tab-pane active text-center" id="gallery-thumbs">
             <h1>Gallery Section...</h1>
              <div class="container-fluid" m-3 id="gallery">
@@ -101,10 +102,10 @@
                 </div>
             </div>
         </div>
-     <!-- Section gallery end -->
+     <!-- gallery section -->
 
-      </div>
-<!-- Contenido -->
+      </div> <!-- tab content-->
+
       
 
         <!-- Scripts starts -->
