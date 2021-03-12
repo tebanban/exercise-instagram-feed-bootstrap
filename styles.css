@@ -1,36 +1,14 @@
 body{
-    background-color: rgb(97, 55, 55);
     font-size: 1em;
 }
 
-.container {
- width: 600px;
- height: auto
+p{
+   
+    margin-bottom: 10px;
 }
 
-.card{
-    width: 100%;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-img{
-     width: 100%;
-}
-
-.card-body{
-    width: 100%;
-    
-    flex: 1 1 auto;
-    padding: 0rem 0rem;
-}
-
-.card-title{
-    height: 40px;
-    padding: 0.5em;
-}
-
-.card-text{
-    padding: 1.5em 1.5em 1.5em 1.5em
+.comment{
+    color: rgb(54, 54, 54);
     
 }
+
